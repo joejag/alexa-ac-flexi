@@ -1,0 +1,15 @@
+{
+  "name": "alexa-ac-flexi",
+  "version": "0.0.1",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "node-lambda": "0.8.11",
+    "request": "^2.79.0"
+  },
+  "scripts": {
+    "setup": "node-lambda setup",
+    "run": "node-lambda run",
+    "deploy": "node-lambda deploy"
+  }
+}
